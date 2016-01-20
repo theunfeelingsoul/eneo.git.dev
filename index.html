@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eneo</title>
+
+	<link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style/custom.css">
+
+	<link rel="stylesheet" type="text/css" href="style/font-awesome/css/font-awesome.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- maps -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(35.6850, 139.7514),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+	<!-- Begin humburger -->
+	<div class="nav navbar-default burger">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+      </div>
+	</div>
+	<!-- End humburger -->
+
+	<!-- Begin mobile header -->
+	<div id="header" class=" navbar-inverse visible-xs">
+		<div class="container  ">
+			<div class="header-bottom">
+				<div class="row">
+					<div class="clearfix"></div>
+
+					<div class="container">
+					  <nav class="navbar navbar-default">
+					    <div class="container-fluid">
+						    <div class="col-md-3">
+								<div id="logo">
+									<a href="">
+										<img src="images/logo.png" title="Home" alt="Home">
+									</a>
+								</div>
+							</div>
+					      <!-- Collect the nav links, forms, and other content for toggling -->
+					      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+					        <ul class="nav navbar-nav">
+					          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+					          <li><a href="#">Browse</a></li>
+					          <li class="dropdown">
+					            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Submit a listing <span class="caret"></span></a>
+					            <ul class="dropdown-menu">
+					              <li><a href="#">Action</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">Another action</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">Something else here</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">Separated link</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">One more separated link</a></li>
+					            </ul>
+					          </li>
+					          <li><a href="#">Browse</a></li>
+					        </ul>
+					      </div><!-- /.navbar-collapse -->
+					    </div><!-- /.container-fluid -->
+					  </nav>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- End mobile header -->
+
+
+	<!-- Begin header-top -->
+	<div id="header-top">
+		<div class="header-top-inside">
+			<div class="container">
+				<div class="row header-top-inside-left pull-left">
+					<!-- added the .row above and .container-fluid below to remove some wierd padding on the left -->
+					<ul class="container-fluid inside-left">
+						<li class="first-leaf"><a href="">
+								<span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>login
+							</a>
+						</li>
+						<li class="last-leaf">
+							<a href="">
+							<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Register
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-top-inside-left pull-right">
+					<ul class="inside-right">
+						<li> <a href="">Join us</a></li>
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li class="last-leaf"><a href=""><i class="fa fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End header-top -->
+
+	<!-- Begin header -->
+	<div id="header" class=" navbar-defult hidden-xs">
+		<div class="container  ">
+			<div class="header-bottom">
+				<div class="row">
+					<div class="clearfix"></div>
+					<div class="col-md-3">
+						<div id="logo">
+							<a href="">
+								<img src="images/logo.png" title="Home" alt="Home">
+							</a>
+						</div>
+					</div>
+					<div class="container">
+					  <nav class="navbar navbar-default">
+					    <div class="container-fluid">
+					      <!-- Collect the nav links, forms, and other content for toggling -->
+					      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					        <ul class="nav navbar-nav">
+					          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+					          <li><a href="#">Browse</a></li>
+					          <li class="dropdown desktop">
+					            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Submit a listing <span class="caret"></span></a>
+					            <ul class="dropdown-menu">
+					              <li><a href="#">Action</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">Another action</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">Something else here</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">Separated link</a></li>
+					              <li role="separator" class="divider"></li>
+					              <li><a href="#">One more separated link</a></li>
+					            </ul>
+					          </li>
+					          <li><a href="#">Browse</a></li>
+					        </ul>
+					      </div><!-- /.navbar-collapse -->
+					    </div><!-- /.container-fluid -->
+					  </nav>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- End header -->
+
+	
+	<!-- <div class="col-md-3 visible-xs">
+		<div id="logo">
+			<a href="">
+				<img src="images/logo.png" title="Home" alt="Home">
+			</a>
+		</div>
+	</div> -->
+	
+	<!-- Begin search wrapper -->
+	<div id="search-wrapper">
+		<div class="container">
+			<div class="">
+				<div class="hidden-xs">
+					<div class="block-title">
+						<h2>Search a listing</h2>
+						<!-- <span class="block-title-icon"><i class="fa fa-caret-right"></i></span> -->
+					</div>
+				</div>
+				<div class="">
+					<form class="form-inline" id="search-form" role="form">
+						<div class="form-group search-form-input-first">
+						    <label class="sr-only" for="text">Listing:</label>
+						    <span class="search-form-text-icon"><i class="fa fa-pencil"></i></span>
+						    <input type="text" class="form-control" id="search-text-input">
+						</div>
+						<div class="form-group search-form-input">
+							<label class="sr-only" >Categories:</label>
+							<span class="search-form-select1-icon"><i class="fa fa-sitemap"></i></span>
+							<select class="form-control search-form-select-input">
+								<option selecetd="selected">Categories</option>
+								<option>SHopping</option>
+								<option>Nightlife</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div class="form-group search-form-input">
+							<label class="sr-only" for="">Locations:</label>
+							<span class="search-form-select2-icon"><i class="fa fa-map-marker"></i></span>
+							<select class="form-control search-form-select-input">
+								<option selecetd="selected">Locations</option>
+								<option>Nairobi</option>
+								<option>Mombasa</option>
+								<option>Kisumu</option>
+								<option>Kisii</option>
+							</select>
+						</div>
+						<div class="form-group search-form-input">
+						  <button type="submit" class="btn btn-default" id="search-from-submit">Search</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End search wrapper -->
+
+	<!-- Begin geo-loc-map -->
+	<div id="geo-loc-map">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="map">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End geo-loc-map -->
+
+	<!-- Begin categories -->
+	<div id="business-categories">
+		<div class="container">
+			<div class="row">
+				<div class="cat-header">
+					<h2 class="cat-title">
+						Browse our categories
+					</h2>
+					<p class="cat-description">
+						Find outr how many lovely places we have in our directory.
+					</p>
+				</div>
+				<div class="cat-content">
+					<div class="cat-row cat-row-1 col-md-4">
+						<div class="cat-row-inner">
+							<div class="cat-row-image">
+								<div class="Cat-image">
+									<a href="">
+										<img src="images/1.jpg" width="400" height="240">
+									</a>
+								</div>
+							</div>
+							<div class="cat-row-name">
+								<a href="">REstaurant</a>
+							</div>
+							<div class="cat-row-description">
+								<p>Purus dolor maecenas, illum culpa aliquam alias blandit in illo.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="cat-row cat-row-1 col-md-4">
+						<div class="cat-row-inner">
+							<div class="cat-row-image">
+								<div class="Cat-image">
+									<a href="">
+										<img src="images/2.jpg" width="400" height="240">
+									</a>
+								</div>
+							</div>
+							<div class="cat-row-name">
+								<a href="">REstaurant</a>
+							</div>
+							<div class="cat-row-description">
+								<p>Purus dolor maecenas, illum culpa aliquam alias blandit in illo.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="cat-row cat-row-1 col-md-4">
+						<div class="cat-row-inner">
+							<div class="cat-row-image">
+								<div class="Cat-image">
+									<a href="">
+										<img src="images/3.jpg" width="400" height="240">
+									</a>
+								</div>
+							</div>
+							<div class="cat-row-name">
+								<a href="">REstaurant</a>
+							</div>
+							<div class="cat-row-description">
+								<p>Purus dolor maecenas, illum culpa aliquam alias blandit in illo.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="cat-row cat-row-1 col-md-4">
+						<div class="cat-row-inner">
+							<div class="cat-row-image">
+								<div class="Cat-image">
+									<a href="">
+										<img src="images/4.jpg" width="400" height="240">
+									</a>
+								</div>
+							</div>
+							<div class="cat-row-name">
+								<a href="">REstaurant</a>
+							</div>
+							<div class="cat-row-description">
+								<p>Purus dolor maecenas, illum culpa aliquam alias blandit in illo.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="cat-row cat-row-1 col-md-4">
+						<div class="cat-row-inner">
+							<div class="cat-row-image">
+								<div class="Cat-image">
+									<a href="">
+										<img src="images/5.jpg" width="400" height="240">
+									</a>
+								</div>
+							</div>
+							<div class="cat-row-name">
+								<a href="">REstaurant</a>
+							</div>
+							<div class="cat-row-description">
+								<p>Purus dolor maecenas, illum culpa aliquam alias blandit in illo.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="cat-row cat-row-1 col-md-4">
+						<div class="cat-row-inner">
+							<div class="cat-row-image">
+								<div class="Cat-image">
+									<a href="">
+										<img src="images/6.jpg" width="400" height="240">
+									</a>
+								</div>
+							</div>
+							<div class="cat-row-name">
+								<a href="">REstaurant</a>
+							</div>
+							<div class="cat-row-description">
+								<p>Purus dolor maecenas, illum culpa aliquam alias blandit in illo.</p>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End categories -->
+
+</body>
+</html>
