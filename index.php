@@ -42,6 +42,8 @@
 
 	<!-- Begin header -->
 	<?php include 'includes/_header.php'; ?>
+	<!-- searchbar -->
+	<?php include 'includes/_searchbar.php'; ?>
 	<!-- End header -->
 
 

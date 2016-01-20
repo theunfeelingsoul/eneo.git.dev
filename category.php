@@ -44,6 +44,8 @@
 
 	<!-- Begin header -->
 	<?php include 'includes/_header.php'; ?>
+	<!-- search bar -->
+	<?php include 'includes/_searchbar.php'; ?>
 	<!-- End header -->
 
 	<!-- Begin geo-loc-map -->
