@@ -727,7 +727,7 @@ a, a:link, a:visited {
 
 /*********************************************************************/
 /*********************************************************************/
-/********************* END PAGES CATEGORY LISTING STYLING *********************/
+/********************* END PAGES CATEGORY LISTING STYLING ************/
 /*********************************************************************/
 /*********************************************************************/
 
@@ -739,8 +739,164 @@ a, a:link, a:visited {
 /*********************************************************************/
 
 
+#business-banner{
+	height: 300px;
+
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eef2f3, #8e9eab); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eef2f3, #8e9eab); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eef2f3, #8e9eab); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eef2f3, #8e9eab); /* Standard syntax */
+}
+
+.business-banner-title{
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+    font-size: 300%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
+    padding-top: 100px;
+}
+
+.business-banner-detail-website a{
+	color: #fff;
+}
+
+.business-banner-detail-address{
+	padding-bottom: 10px;
+}
+
+.business-banner-content{
+	color: #FFf;
+	position: relative;
+}
+
+.business-banner-detail-address span.glyphicon,
+.business-banner-detail-phone span.glyphicon,
+.business-banner-detail-website span.glyphicon{
+	width: 20px;
+}
+.business-banner-detail-address ,
+.business-banner-detail-phone ,
+.business-banner-detail-website {
+	    font-size: 110%;
+}
+
+.business-banner-detail-phone{
+	float: left;
+	padding-right: 20px;
+}
 
 
+.field-map {
+    position: absolute;
+    /*bottom: -80px;*/
+    right: 0;
+    float: right;
+    height: 300px;
+    width: 400px;
+    /*right: 200px;*/
+    top: 50px;
+    border: 5px solid #fff;
+}
+
+#business-detail-review{
+	height: 60px;
+}
+
+a.btn-primary, #business-detail-review .btn-primary, #cmb {
+    background-color: #00bff3 !important;
+    border-color: #1896b8;
+    color: #FFFFFF;
+    background-image:none; 
+}
+
+.btn {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 10px 12px;
+}
+
+.business-detail-review-comment{
+	color: #fff;
+	padding-top: 10px;
+}
+
+/*********************************************************************/
+/*********************************************************************/
+/********************* END BUSINESS-BANNER STYLING ********************/
+/*********************************************************************/
+/*********************************************************************/
+
+
+
+/*********************************************************************/
+/*********************************************************************/
+/********************* START BUSINESS-BANNER STYLING ********************/
+/*********************************************************************/
+/*********************************************************************/
+
+.business-detail-article{
+	background-color: #fff;
+	padding: 25px;
+}
+
+.field {
+    padding: 15px 0 15px 70px;
+    border-bottom: 1px solid #F8F8F8;
+    position: relative;
+}
+
+.field-label {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    color: #00bff3;
+}
+
+.field:before {
+    background: #00bff3;
+}
+
+.field.field-name-body:before {
+    content: "\f044";
+}
+
+.field.field-name-field-open-time:before {
+    content: "\f017";
+}
+
+.field.field-name-field-price-range:before {
+    content: "\f155";
+}
+
+.field.field-name-field-highlights:before {
+    content: "\f0eb";
+}
+
+.field.field-name-field-tags:before {
+    content: "\f02c";
+}
+
+.field.field-name-body:before ,
+.field.field-name-field-open-time:before ,
+.field.field-name-field-price-range:before ,
+.field.field-name-field-tags:before ,
+.field.field-name-field-highlights:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 180%;
+    float: left;
+    position: absolute;
+    left: 0;
+    background: #00bff3;
+    color: #fff;
+    padding: 8px 0px;
+    width: 50px;
+    text-align: center;
+}
 
 
 /*********************************************************************/

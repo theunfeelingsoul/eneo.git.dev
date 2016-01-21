@@ -26,7 +26,7 @@
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
       function initialize() {
-        var mapCanvas = document.getElementById('map');
+        var mapCanvas = document.getElementById('map-c');
         var mapOptions = {
           center: new google.maps.LatLng(35.6850, 139.7514),
           zoom: 15,
@@ -46,18 +46,114 @@
 	<?php include 'includes/_header.php'; ?>
 	<!-- End header -->
 
-	<div class="content-fluid">
-		<div class="Row">
+	<div class="container-fluid">
+		<div class="row">
 			<!-- #business-banner -->
 			<div id="business-banner">
-				<div class="business-banner-content">
-					<div class="business-banner-content">
-						<div class="business-banner-title"></div>
-						<div class="business-banner-detail"></div>
+				<div class="container">
+					<div class="row">
+						<div class="business-banner-content">
+							<div class="col-md-8">
+								<div class="business-banner-title">
+									Modern Jeans
+								</div>
+								<div class="business-banner-detail">
+									<div class="business-banner-detail-address">
+										<span class="glyphicon glyphicon-home"></span>
+										Westlands, Mogotio rd,
+									</div>
+									<div class="business-banner-detail-phone">
+										<span class="glyphicon glyphicon-phone-alt"></span>
+										0722383897
+									</div>
+									<div class="business-banner-detail-website">
+										<span class="glyphicon glyphicon-globe"></span>
+										<a href="">Symphony</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="field-map" id="map-c">
+										
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<div id="business-detail-review">
+					<div class="col-ms-8">
+						<div class="business-detail-review-rating"></div>
+						<div class="business-detail-review-comment">
+							<a href="" class="btn btn-primary">Write a comment</a>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- EOF: #Full width -->
+		</div>
+	<!-- EOF: .conatiner-fluid -->
+	</div>
+
+	<div id="Page">
+		<div id="main-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="business-detail-article">
+							<div class="field field-name-body">
+								<div class="field-label ">Description:&nbsp;</div>
+								<div class="field-items">
+									<p>
+										Cum sociis natoque penatibus et magnis dis parturient montes, 
+										nascetur ridiculus mus. Donec quam felis, ultricies nec, pellen
+										tesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+									</p>
+								</div>
+							</div>
+
+							<div class="field field-name-field-open-time">
+								<div class="field-label ">Open Time:&nbsp;</div>
+								<div class="field-items">
+									<p>
+										9 AM to 6:30 PM Mon to Sun
+									</p>
+								</div>
+							</div>
+
+
+							<div class="field field-name-field-price-range">
+								<div class="field-label ">Price range:&nbsp;</div>
+								<div class="field-items">
+									<p>
+										Middle End
+									</p>
+								</div>
+							</div>
+
+							<div class="field field-name-field-highlights">
+								<div class="field-label ">Highlights:&nbsp;</div>
+								<div class="field-items">
+									<p>Take ReservationsAccept credit cardsWheelchair accessible9 AM to 6:30 PM Mon to Sun
+									</p>
+								</div>
+							</div>
+
+							<div class="field field-name-field-tags">
+								<div class="field-label ">TAGS:&nbsp;</div>
+								<div class="field-items">
+									<p>
+										9JeanYouthStylish
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
