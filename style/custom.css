@@ -741,7 +741,7 @@ a, a:link, a:visited {
 
 #business-banner{
 	height: 300px;
-
+	border-top: 1px solid #00bff3;
 	background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#eef2f3, #8e9eab); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#eef2f3, #8e9eab); /* For Opera 11.1 to 12.0 */
@@ -792,6 +792,7 @@ a, a:link, a:visited {
 
 .field-map {
     position: absolute;
+    /*border: 1px soild;*/
     /*bottom: -80px;*/
     right: 0;
     float: right;
@@ -802,6 +803,7 @@ a, a:link, a:visited {
     border: 5px solid #fff;
 }
 
+	
 #business-detail-review{
 	height: 60px;
 }
@@ -902,5 +904,69 @@ a.btn-primary, #business-detail-review .btn-primary, #cmb {
 /*********************************************************************/
 /*********************************************************************/
 /********************* END BUSINESS-BANNER STYLING ********************/
+/*********************************************************************/
+/*********************************************************************/
+
+
+
+/*********************************************************************/
+/*********************************************************************/
+/********************* START BUSINESS-SIDEBAR-ARTICLE STYLING ********************/
+/*********************************************************************/
+/*********************************************************************/
+
+#business-sidebar-article{
+	background-color: #fff;
+	padding: 25px;
+	margin-bottom: 20px;
+	display:table;  
+}
+
+
+h2.business-sidebar-article-title {
+    margin-top: 0;
+    font-weight: 600;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #2B2B2B;
+    font-size: 20px;
+    text-transform: uppercase;
+    /*position: relative;*/
+}
+
+
+.sidebar-row{
+	float: left;
+	width: 100%;
+	border-bottom: 1px dotted #eee;
+	margin-bottom: 20px;
+	min-height: 100px;
+	background: #fff;
+}
+
+.sidebar-row-inner {
+    padding: 0 0 0 115px;
+    /*position: relative;*/
+	
+}
+
+.sidebar-row-image img{
+	width: 100px;
+}
+.sidebar-row-image{
+	float: left;
+}
+
+.sidebar-row-inner-title{
+	font-size: 100%;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+
+
+/*********************************************************************/
+/*********************************************************************/
+/********************* END BUSINESS-SIDEBAR-ARTICLE STYLING ********************/
 /*********************************************************************/
 /*********************************************************************/

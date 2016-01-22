@@ -73,9 +73,11 @@
 								</div>
 							</div>
 							<div class="col-md-4">
+							
 								<div class="field-map" id="map-c">
-										
+									<!-- <div class="field-map"></div> -->
 								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -148,6 +150,68 @@
 									<p>
 										9JeanYouthStylish
 									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div id="business-sidebar-article"> 
+							<h2 class="business-sidebar-article-title">Similar Business</h2>
+							<div class="sidebar-content">
+								<div class="sidebar-row">
+									<div class="sidebar-row-image">
+										<img src="images/s1.jpg">
+									</div>
+									<div class="sidebar-row-inner">
+										<div class="sidebar-row-inner-title">
+											<a href="">Oldman Sport Store</a>
+										</div>
+										<div class="sidebar-row-inner-rating">
+											stars
+										</div>
+									</div>
+								</div>
+
+								<div class="sidebar-row">
+									<div class="sidebar-row-image">
+										<img src="images/s1.jpg">
+									</div>
+									<div class="sidebar-row-inner">
+										<div class="sidebar-row-inner-title">
+											<a href="">Oldman Sport Store</a>
+										</div>
+										<div class="sidebar-row-inner-rating">
+											stars
+										</div>
+									</div>
+								</div>
+
+								<div class="sidebar-row">
+									<div class="sidebar-row-image">
+										<img src="images/s1.jpg">
+									</div>
+									<div class="sidebar-row-inner">
+										<div class="sidebar-row-inner-title">
+											<a href="">Oldman Sport Store</a>
+										</div>
+										<div class="sidebar-row-inner-rating">
+											stars
+										</div>
+									</div>
+								</div>
+
+								<div class="sidebar-row">
+									<div class="sidebar-row-image">
+										<img src="images/s1.jpg">
+									</div>
+									<div class="sidebar-row-inner">
+										<div class="sidebar-row-inner-title">
+											<a href="">Oldman Sport Store</a>
+										</div>
+										<div class="sidebar-row-inner-rating">
+											stars
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
