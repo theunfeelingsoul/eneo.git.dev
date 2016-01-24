@@ -36,3 +36,5 @@ Done 1/22/2016 Friday -- yea 2016
 2. created the small side map
 3. created the detail area of the business
 4. created the side bar that shows related businesses
+
+
