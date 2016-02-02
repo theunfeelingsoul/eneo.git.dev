@@ -152,6 +152,62 @@
 									</p>
 								</div>
 							</div>
+
+							<div class="field field-name-field-photos">
+								<div class="field-label ">Photos</div>
+								<div class="container-fluid">
+									<div class="field-items row">
+										<div class="field-item-odd">
+											<a href="">
+												<img src="images/food1.jpg">
+											</a>
+										</div>
+										<div class="field-item-even">
+											<a href="">
+												<img src="images/food2.jpg">
+											</a>
+										</div>
+										<div class="field-item-odd">
+											<a href="">
+												<img src="images/food3.jpg">
+											</a>
+										</div>
+										<div class="field-item-even">
+											<a href="">
+												<img src="images/food4.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="field field-name-field-videos">
+								<div class="field-label ">Videos</div>
+								<div class="container-fluid">
+									<div class="field-items row">
+										<div class="field-item-odd">
+											<a href="clistingvideo.php">
+												<img src="images/food1.jpg">
+											</a>
+										</div>
+										<div class="field-item-even">
+											<a href="clistingvideo.php">
+												<img src="images/food2.jpg">
+											</a>
+										</div>
+										<div class="field-item-odd">
+											<a href="clistingvideo.php">
+												<img src="images/food3.jpg">
+											</a>
+										</div>
+										<div class="field-item-even">
+											<a href="clistingvideo.php">
+												<img src="images/food4.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4">

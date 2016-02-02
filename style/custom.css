@@ -837,7 +837,7 @@ a.btn-primary, #business-detail-review .btn-primary, #cmb {
 
 /*********************************************************************/
 /*********************************************************************/
-/********************* START BUSINESS-BANNER STYLING ********************/
+/************ START BUSINESS-DETAIL-ARTICLE STYLING ******************/
 /*********************************************************************/
 /*********************************************************************/
 
@@ -882,10 +882,33 @@ a.btn-primary, #business-detail-review .btn-primary, #cmb {
     content: "\f02c";
 }
 
+
+.field.field-name-field-photos:before {
+    content: "\f02c";
+}
+
+.field.field-name-field-videos:before {
+    content: "\f02c";
+}
+
+.field-item-odd, .field-item-even{
+	float: left;
+}
+
+.field-item-even{
+	padding: 0 20px 0 20px;
+}
+.field-items img{
+	width: 100px;
+}
+
+
 .field.field-name-body:before ,
 .field.field-name-field-open-time:before ,
 .field.field-name-field-price-range:before ,
 .field.field-name-field-tags:before ,
+.field.field-name-field-photos:before ,
+.field.field-name-field-videos:before ,
 .field.field-name-field-highlights:before {
     font-family: FontAwesome;
     display: inline-block;
@@ -901,9 +924,10 @@ a.btn-primary, #business-detail-review .btn-primary, #cmb {
 }
 
 
+
 /*********************************************************************/
 /*********************************************************************/
-/********************* END BUSINESS-BANNER STYLING ********************/
+/************ END BUSINESS-DETAIL-ARTICLE STYLING ******************/
 /*********************************************************************/
 /*********************************************************************/
 
@@ -995,16 +1019,23 @@ h2.business-sidebar-article-title {
 }
 
 .video-list-head{
-	/*background-color: #00bff3;*/
+	background-color: #f4f4f4;
 	border-bottom: 1px solid #c3c3c3;
-    /*padding: 0px 0;*/
+    padding: 10px;
     min-height: 40px;
 }
 
 .video-list{
 	padding-top: 20px;
-	padding-bottom: 20px;
-	/*border-bottom: 1px solid #c3c3c3;*/
+	/*padding-bottom: 20px;*/
+	border-bottom: 1px solid #E8E8E8;
+	/*height: 130px;*/
+	/*margin-left: 15px;*/
+
+}
+
+.video-list .col-sm-3{
+	/*padding-left: 0px;*/
 }
 
 .video-list .col-sm-9 h5{
@@ -1015,9 +1046,25 @@ h2.business-sidebar-article-title {
 
 
 .video-list .col-sm-9{
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
 	/*border-bottom: 1px solid #c3c3c3;*/
 	
+}
+
+.video-list-head-details{
+	width: 70%;
+	float: left;
+}
+
+.video-list-head-options{
+	float: right;
+}
+
+.video-list-head-options .form-control-static{
+	padding-top: 0px;
+}
+.video-list-head-options .form-inline .form-group{
+	vertical-align: top;
 }
 /*********************************************************************/
 /*********************************************************************/

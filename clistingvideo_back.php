@@ -152,56 +152,48 @@
 									</div>
 								</div>
 							</div>
-							<div class="container-fluid">
-								<!-- <div class="row"> -->
-									<div class="row video-list">
-										<div class="video-list-">
-											<div class="col-sm-3">
-												<a href="clistingplayvideo.php"><img src="images/video1.png"></a>
-											</div>
-											<div class="col-sm-9">
-												<h5 class=""><a href="clistingplayvideo.php">Video 1</a></h5>
-												<p>
-													Minim wisi corporis anim, nemo eius, in egestas.
-													Minim wisi corporis anim, nemo eius, in egestas.
-												</p>
-												<p>10min </p>
-											</div>
-										</div>
+							<div class="row">
+								<div class="video-list">
+									<div class="col-sm-3">
+										<a href="clistingplayvideo.php"><img src="images/video1.png"></a>
 									</div>
+									<div class="col-sm-9">
+										<h5 class=""><a href="clistingplayvideo.php">Video 1</a></h5>
+										<p>
+											Minim wisi corporis anim, nemo eius, in egestas.
+											Minim wisi corporis anim, nemo eius, in egestas.
+										</p>
+										<p>10min </p>
+									</div>
+								</div>
 
-									<div class="row video-list">
-										<div class="video-list-">
-											<div class="col-sm-3">
-												<a href="clistingplayvideo.php"><img src="images/video2.png"></a>
-											</div>
-											<div class="col-sm-9">
-												<h5 class=""><a href="clistingplayvideo.php">Video 2</a></h5>
-												<p>
-													Minim wisi corporis anim, nemo eius, in egestas.
-													Minim wisi corporis anim, nemo eius, in egestas.
-												</p>
-												<p>10min </p>
-											</div>
-										</div>
+								<div class="video-list">
+									<div class="col-sm-3">
+										<a href="clistingplayvideo.php"><img src="images/video2.png"></a>
 									</div>
+									<div class="col-sm-9">
+										<h5 class=""><a href="clistingplayvideo.php">Video 2</a></h5>
+										<p>
+											Minim wisi corporis anim, nemo eius, in egestas.
+											Minim wisi corporis anim, nemo eius, in egestas.
+										</p>
+										<p>10min </p>
+									</div>
+								</div>
 
-									<div class="row video-list">
-										<div class="video-list-">
-											<div class="col-sm-3">
-												<a href="clistingplayvideo.php"><img src="images/video3.png"></a>
-											</div>
-											<div class="col-sm-9">
-												<h5 class=""><a href="clistingplayvideo.php">Video 3</a></h5>
-												<p>
-													Minim wisi corporis anim, nemo eius, in egestas.
-													Minim wisi corporis anim, nemo eius, in egestas.
-												</p>
-												<p>10min </p>
-											</div>
-										</div>
+								<div class="video-list">
+									<div class="col-sm-3">
+										<a href="clistingplayvideo.php"><img src="images/video3.png"></a>
 									</div>
-								<!-- </div> -->
+									<div class="col-sm-9">
+										<h5 class=""><a href="clistingplayvideo.php">Video 3</a></h5>
+										<p>
+											Minim wisi corporis anim, nemo eius, in egestas.
+											Minim wisi corporis anim, nemo eius, in egestas.
+										</p>
+										<p>10min </p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
