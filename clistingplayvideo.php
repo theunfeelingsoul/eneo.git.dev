@@ -127,8 +127,32 @@
 					</div>
 					<div class="col-md-8">
 						<div class="business-detail-article">
-							<div class="text-center">
-								<iframe width="660" height="415" src="https://www.youtube.com/embed/Xuav1TPhLQw" frameborder="0" allowfullscreen></iframe>
+							<div class="comtainer-fluid">
+								<div class="row">
+									<h2 class="business-sidebar-article-title">Pixel Playground</h2>
+									<div class="text-centerk">
+										<iframe width="730" height="315" src="https://www.youtube.com/embed/ofzQqJNEYBk" frameborder="0" allowfullscreen></iframe>
+										<!-- <iframe width="730" height="415" src="https://www.youtube.com/embed/Xuav1TPhLQw" frameborder="0" allowfullscreen></iframe> -->
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-5">
+										<!-- Nav tabs -->
+										<ul class="nav nav-tabs" role="tablist">
+											<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Video Details</a></li>
+											<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Transcipt</a></li>
+										</ul>
+
+										<!-- Tab panes -->
+										<div class="tab-content">
+											<div role="tabpanel" class="tab-pane active" id="home">
+												<h5>Pixel playgroundsayground</h5>
+												Take a 10-minute recess every week and join Bert Monroy in Adobe Photoshop or Illustrator, the playgrounds of digital artists. Every Friday Bert walks through a fun, self-contained project that tests your skills and challenges the imagination. These programs aren't just image editors; they are sandboxes for creativity and experimentation. Take a spin through a carousel of tools and get reinspired, each and every week
+											</div>
+											<div role="tabpanel" class="tab-pane" id="profile">...</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
